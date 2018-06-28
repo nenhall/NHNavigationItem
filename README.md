@@ -18,6 +18,8 @@
 
 #### 添加NavigationItem使用方法：
 
+**pod 'NHNavigationItem'**
+
 * 部份属性说明
 
   ```
