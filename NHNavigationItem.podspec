@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "NHNavigationItem"
-  s.version      = "1.0.2"
+  s.version      = "1.0.3"
   s.summary      = "在系统原生的导航栏上面随意定制导航按钮及自带侧滑返回手势的工具类"
   s.description  = <<-DESC
   一个完全支持在系统原生的导航栏上面随意定制导航按钮及自带侧滑返回手势的工具类，你只需要简单调用一句代码即可添加导航栏按钮，支持block回调及函数调用。
