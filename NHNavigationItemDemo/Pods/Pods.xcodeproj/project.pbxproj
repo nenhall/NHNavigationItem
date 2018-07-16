@@ -7,12 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1117D03D9580579D4E1E4609539631F5 /* UIViewController+NHItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 0492543BF4BD113D256E47478653DE4E /* UIViewController+NHItem.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		2FE5E84D4D951EA02839ED5375E2CB47 /* UINavigationController+NHFullGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = F54950027BFF1188E3C0EED6D6DECAEA /* UINavigationController+NHFullGesture.m */; };
+		1FAB88BD2C8C6ADD0FBCFD3CCD28DAF0 /* NHNavigationItem-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C183050B343B9911E0839E6F8287240 /* NHNavigationItem-dummy.m */; };
+		6FB0DA1E05353B2E0732A1ABD08FD2DD /* UIViewController+NHItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CF08B5D9CF92530723BE10DF0571DB /* UIViewController+NHItem.m */; };
+		7C4A65C4DD725517CC9138D8F948B431 /* UIViewController+NHItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 48AC7B9FF2CD031422C39FCF29A48D31 /* UIViewController+NHItem.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		848C1DC3E245972CE30FA535D3D198FF /* UINavigationController+NHFullGesture.h in Headers */ = {isa = PBXBuildFile; fileRef = 892BA52E94F19DA3BC10EEF604E90E64 /* UINavigationController+NHFullGesture.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		84C67299E86A1709366271F1044454FA /* UINavigationController+NHFullGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DDC184151D36AA3B4845C188F683430 /* UINavigationController+NHFullGesture.m */; };
 		8A09612904355F0E42EEFD2515B51C5F /* Pods-NHNavigationItemDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E3B68C8A63E2A0E6F138A5C65984BE9 /* Pods-NHNavigationItemDemo-dummy.m */; };
-		9FBECB5843259E5FA18BD2AABC979FE5 /* UINavigationController+NHFullGesture.h in Headers */ = {isa = PBXBuildFile; fileRef = E53F2B79B7A96B2264752154489358A7 /* UINavigationController+NHFullGesture.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		BEE62CF586FA12047AFE8800285CF5FE /* UIViewController+NHItem.m in Sources */ = {isa = PBXBuildFile; fileRef = ACF08AAC50DC409C2E8926BE3B26B00F /* UIViewController+NHItem.m */; };
-		C523A6382C270211140EDCA2DBF51116 /* NHNavigationItem-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CE54AB881B091E2A16AEDA5FC684FEFF /* NHNavigationItem-dummy.m */; };
+		EDEF4A699CDC3D4F3EF762155D7A0E21 /* NHNavigationItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 52EAFB6B1672FCE0F8C32C747126E52C /* NHNavigationItem.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -20,32 +21,33 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 63A5F26CBBD060710758C39835158916;
+			remoteGlobalIDString = 8EC0EC78C71A616C9C556308E3588BA7;
 			remoteInfo = NHNavigationItem;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0492543BF4BD113D256E47478653DE4E /* UIViewController+NHItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+NHItem.h"; path = "NHNavigationItem/UIViewController+NHItem.h"; sourceTree = "<group>"; };
+		219A4B297100B4F4CE04C0F2B92CFAAF /* NHNavigationItem.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NHNavigationItem.xcconfig; sourceTree = "<group>"; };
 		24B560B3F6EF25C574B37842EF7792EE /* Pods-NHNavigationItemDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NHNavigationItemDemo.release.xcconfig"; sourceTree = "<group>"; };
-		3721CAF3B055FEE589397C0776DDE8B9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		36AED52F8D3206DD7E64C1A674902ED7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		39C1EF5C43C5AFBABB559AA87599C33E /* Pods-NHNavigationItemDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NHNavigationItemDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		44CF08B5D9CF92530723BE10DF0571DB /* UIViewController+NHItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+NHItem.m"; path = "NHNavigationItem/UIViewController+NHItem.m"; sourceTree = "<group>"; };
+		48AC7B9FF2CD031422C39FCF29A48D31 /* UIViewController+NHItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+NHItem.h"; path = "NHNavigationItem/UIViewController+NHItem.h"; sourceTree = "<group>"; };
 		4A9139896D3A115070FB6712B6D37D7D /* Pods-NHNavigationItemDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NHNavigationItemDemo-frameworks.sh"; sourceTree = "<group>"; };
+		52EAFB6B1672FCE0F8C32C747126E52C /* NHNavigationItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NHNavigationItem.h; path = NHNavigationItem/NHNavigationItem.h; sourceTree = "<group>"; };
+		6A395452E4B228D5B0494A0503223A6E /* NHNavigationItem-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NHNavigationItem-prefix.pch"; sourceTree = "<group>"; };
+		6C183050B343B9911E0839E6F8287240 /* NHNavigationItem-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NHNavigationItem-dummy.m"; sourceTree = "<group>"; };
 		6E3B68C8A63E2A0E6F138A5C65984BE9 /* Pods-NHNavigationItemDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NHNavigationItemDemo-dummy.m"; sourceTree = "<group>"; };
 		74E76C87700CB2E842A1D39E5DBAE5B4 /* libPods-NHNavigationItemDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-NHNavigationItemDemo.a"; path = "libPods-NHNavigationItemDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C28A1516D0CBAFA31CEF5B85581F3CE /* Pods-NHNavigationItemDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NHNavigationItemDemo-resources.sh"; sourceTree = "<group>"; };
-		84C20353B1957F82466412C8667EBA8D /* NHNavigationItem-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NHNavigationItem-prefix.pch"; sourceTree = "<group>"; };
+		7DDC184151D36AA3B4845C188F683430 /* UINavigationController+NHFullGesture.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+NHFullGesture.m"; path = "NHNavigationItem/UINavigationController+NHFullGesture.m"; sourceTree = "<group>"; };
+		800AC27F427CBBD4B5643C5564E1A167 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		892BA52E94F19DA3BC10EEF604E90E64 /* UINavigationController+NHFullGesture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+NHFullGesture.h"; path = "NHNavigationItem/UINavigationController+NHFullGesture.h"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		ACF08AAC50DC409C2E8926BE3B26B00F /* UIViewController+NHItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+NHItem.m"; path = "NHNavigationItem/UIViewController+NHItem.m"; sourceTree = "<group>"; };
-		B0EF918DBB504551CCA81DC156483F6E /* NHNavigationItem.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NHNavigationItem.xcconfig; sourceTree = "<group>"; };
 		B15240C874E4B8E00AFBFE275DADE21F /* Pods-NHNavigationItemDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NHNavigationItemDemo-acknowledgements.plist"; sourceTree = "<group>"; };
 		C892EA04677777807F1378C35CCB7F28 /* Pods-NHNavigationItemDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NHNavigationItemDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
-		CE54AB881B091E2A16AEDA5FC684FEFF /* NHNavigationItem-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NHNavigationItem-dummy.m"; sourceTree = "<group>"; };
 		D615D56C90A7961D5FE74F10FF3346D4 /* libNHNavigationItem.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libNHNavigationItem.a; path = libNHNavigationItem.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		E53F2B79B7A96B2264752154489358A7 /* UINavigationController+NHFullGesture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+NHFullGesture.h"; path = "NHNavigationItem/UINavigationController+NHFullGesture.h"; sourceTree = "<group>"; };
-		E73D16C5775CAC9586FBA06C3CCB845F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		F368822737001B642DBAB14DDC80C0F6 /* NHNavigationItem.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = NHNavigationItem.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		F54950027BFF1188E3C0EED6D6DECAEA /* UINavigationController+NHFullGesture.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+NHFullGesture.m"; path = "NHNavigationItem/UINavigationController+NHFullGesture.m"; sourceTree = "<group>"; };
+		DC7D1C56573851702C7465AE78FDBA88 /* NHNavigationItem.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = NHNavigationItem.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +58,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6A48108FBB9A365A65916F5548508B0E /* Frameworks */ = {
+		C761B20CAFB0B5EF10E1A63DE9F78BE5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -96,15 +98,16 @@
 			path = "Target Support Files/Pods-NHNavigationItemDemo";
 			sourceTree = "<group>";
 		};
-		78CD83CB85A2BE27D895D3F2EF6A7FDE /* NHNavigationItem */ = {
+		5CAF7B86A9E7F8EEE5CB222B6BCA78CA /* NHNavigationItem */ = {
 			isa = PBXGroup;
 			children = (
-				E53F2B79B7A96B2264752154489358A7 /* UINavigationController+NHFullGesture.h */,
-				F54950027BFF1188E3C0EED6D6DECAEA /* UINavigationController+NHFullGesture.m */,
-				0492543BF4BD113D256E47478653DE4E /* UIViewController+NHItem.h */,
-				ACF08AAC50DC409C2E8926BE3B26B00F /* UIViewController+NHItem.m */,
-				A61FCE1E81860F7C9C3488FA0FFE5338 /* Pod */,
-				834B42742E40BD3CCA005386995A1BC5 /* Support Files */,
+				52EAFB6B1672FCE0F8C32C747126E52C /* NHNavigationItem.h */,
+				892BA52E94F19DA3BC10EEF604E90E64 /* UINavigationController+NHFullGesture.h */,
+				7DDC184151D36AA3B4845C188F683430 /* UINavigationController+NHFullGesture.m */,
+				48AC7B9FF2CD031422C39FCF29A48D31 /* UIViewController+NHItem.h */,
+				44CF08B5D9CF92530723BE10DF0571DB /* UIViewController+NHItem.m */,
+				801BD3AF39A38B577570061D9AFC0DD9 /* Pod */,
+				CA4E0EC741191EBACE0B35AB7FDAADE4 /* Support Files */,
 			);
 			name = NHNavigationItem;
 			path = ../..;
@@ -114,40 +117,40 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				8D2CB5E9C31D3710E17E414C3F1EF893 /* Development Pods */,
+				A9DE4EAC91F96F1EE9416362942D78E4 /* Development Pods */,
 				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
 				FD3887B286091CF5E26614A8A5DA4BA4 /* Products */,
 				05D2DE6361FA32F56761CAB7A95AF613 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		834B42742E40BD3CCA005386995A1BC5 /* Support Files */ = {
+		801BD3AF39A38B577570061D9AFC0DD9 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				B0EF918DBB504551CCA81DC156483F6E /* NHNavigationItem.xcconfig */,
-				CE54AB881B091E2A16AEDA5FC684FEFF /* NHNavigationItem-dummy.m */,
-				84C20353B1957F82466412C8667EBA8D /* NHNavigationItem-prefix.pch */,
+				36AED52F8D3206DD7E64C1A674902ED7 /* LICENSE */,
+				DC7D1C56573851702C7465AE78FDBA88 /* NHNavigationItem.podspec */,
+				800AC27F427CBBD4B5643C5564E1A167 /* README.md */,
 			);
-			name = "Support Files";
-			path = "NHNavigationItemDemo/Pods/Target Support Files/NHNavigationItem";
+			name = Pod;
 			sourceTree = "<group>";
 		};
-		8D2CB5E9C31D3710E17E414C3F1EF893 /* Development Pods */ = {
+		A9DE4EAC91F96F1EE9416362942D78E4 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				78CD83CB85A2BE27D895D3F2EF6A7FDE /* NHNavigationItem */,
+				5CAF7B86A9E7F8EEE5CB222B6BCA78CA /* NHNavigationItem */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		A61FCE1E81860F7C9C3488FA0FFE5338 /* Pod */ = {
+		CA4E0EC741191EBACE0B35AB7FDAADE4 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				3721CAF3B055FEE589397C0776DDE8B9 /* LICENSE */,
-				F368822737001B642DBAB14DDC80C0F6 /* NHNavigationItem.podspec */,
-				E73D16C5775CAC9586FBA06C3CCB845F /* README.md */,
+				219A4B297100B4F4CE04C0F2B92CFAAF /* NHNavigationItem.xcconfig */,
+				6C183050B343B9911E0839E6F8287240 /* NHNavigationItem-dummy.m */,
+				6A395452E4B228D5B0494A0503223A6E /* NHNavigationItem-prefix.pch */,
 			);
-			name = Pod;
+			name = "Support Files";
+			path = "NHNavigationItemDemo/Pods/Target Support Files/NHNavigationItem";
 			sourceTree = "<group>";
 		};
 		FD3887B286091CF5E26614A8A5DA4BA4 /* Products */ = {
@@ -162,25 +165,26 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		54181D29ECF9BABE5A743AF833FD8BC5 /* Headers */ = {
+		D37C735841E9B9555B60E8D4FC66DD01 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9FBECB5843259E5FA18BD2AABC979FE5 /* UINavigationController+NHFullGesture.h in Headers */,
-				1117D03D9580579D4E1E4609539631F5 /* UIViewController+NHItem.h in Headers */,
+				EDEF4A699CDC3D4F3EF762155D7A0E21 /* NHNavigationItem.h in Headers */,
+				848C1DC3E245972CE30FA535D3D198FF /* UINavigationController+NHFullGesture.h in Headers */,
+				7C4A65C4DD725517CC9138D8F948B431 /* UIViewController+NHItem.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		63A5F26CBBD060710758C39835158916 /* NHNavigationItem */ = {
+		8EC0EC78C71A616C9C556308E3588BA7 /* NHNavigationItem */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F84F3533FBDA935E3CDE3A7F89E9B159 /* Build configuration list for PBXNativeTarget "NHNavigationItem" */;
+			buildConfigurationList = 090D79127E819B7EBABD9515B710EB8B /* Build configuration list for PBXNativeTarget "NHNavigationItem" */;
 			buildPhases = (
-				0B99B7F507DFEB801F4CFB6A996E3B8E /* Sources */,
-				6A48108FBB9A365A65916F5548508B0E /* Frameworks */,
-				54181D29ECF9BABE5A743AF833FD8BC5 /* Headers */,
+				783E8771BFE82EE66B14B71F2BABE504 /* Sources */,
+				C761B20CAFB0B5EF10E1A63DE9F78BE5 /* Frameworks */,
+				D37C735841E9B9555B60E8D4FC66DD01 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -229,20 +233,20 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				63A5F26CBBD060710758C39835158916 /* NHNavigationItem */,
+				8EC0EC78C71A616C9C556308E3588BA7 /* NHNavigationItem */,
 				B0F12A73FCA17D2F32FC0FFDA6661560 /* Pods-NHNavigationItemDemo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0B99B7F507DFEB801F4CFB6A996E3B8E /* Sources */ = {
+		783E8771BFE82EE66B14B71F2BABE504 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C523A6382C270211140EDCA2DBF51116 /* NHNavigationItem-dummy.m in Sources */,
-				2FE5E84D4D951EA02839ED5375E2CB47 /* UINavigationController+NHFullGesture.m in Sources */,
-				BEE62CF586FA12047AFE8800285CF5FE /* UIViewController+NHItem.m in Sources */,
+				1FAB88BD2C8C6ADD0FBCFD3CCD28DAF0 /* NHNavigationItem-dummy.m in Sources */,
+				84C67299E86A1709366271F1044454FA /* UINavigationController+NHFullGesture.m in Sources */,
+				6FB0DA1E05353B2E0732A1ABD08FD2DD /* UIViewController+NHItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +264,7 @@
 		1CAC628E437E0B45D749D891B70AB3E9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = NHNavigationItem;
-			target = 63A5F26CBBD060710758C39835158916 /* NHNavigationItem */;
+			target = 8EC0EC78C71A616C9C556308E3588BA7 /* NHNavigationItem */;
 			targetProxy = 32E6EC5B5BC2B6C3322C4A5662B535CB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -351,9 +355,9 @@
 			};
 			name = Debug;
 		};
-		499B1E1B67F645EF47D5D51F522F39AA /* Release */ = {
+		51911D344D8F8F6972E287A0A9CFCDA7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B0EF918DBB504551CCA81DC156483F6E /* NHNavigationItem.xcconfig */;
+			baseConfigurationReference = 219A4B297100B4F4CE04C0F2B92CFAAF /* NHNavigationItem.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -375,6 +379,29 @@
 			};
 			name = Release;
 		};
+		72401E88230827F45AD53A91DF944E03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 219A4B297100B4F4CE04C0F2B92CFAAF /* NHNavigationItem.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/NHNavigationItem/NHNavigationItem-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = NHNavigationItem;
+				PRODUCT_NAME = NHNavigationItem;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 		BC04A565A81BF38BC27D68DD32BD2BEA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 39C1EF5C43C5AFBABB559AA87599C33E /* Pods-NHNavigationItemDemo.debug.xcconfig */;
@@ -392,29 +419,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		E25C5E797DEA192E5AE577A57DE39394 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B0EF918DBB504551CCA81DC156483F6E /* NHNavigationItem.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/NHNavigationItem/NHNavigationItem-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = NHNavigationItem;
-				PRODUCT_NAME = NHNavigationItem;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -489,20 +493,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		090D79127E819B7EBABD9515B710EB8B /* Build configuration list for PBXNativeTarget "NHNavigationItem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72401E88230827F45AD53A91DF944E03 /* Debug */,
+				51911D344D8F8F6972E287A0A9CFCDA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1EE19F5DD95931924296F637BF18BD8F /* Debug */,
 				F4568DEE257655D290C2B9CEAB37C934 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F84F3533FBDA935E3CDE3A7F89E9B159 /* Build configuration list for PBXNativeTarget "NHNavigationItem" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E25C5E797DEA192E5AE577A57DE39394 /* Debug */,
-				499B1E1B67F645EF47D5D51F522F39AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -8,7 +8,7 @@
 
 #import "NHViewController.h"
 #import "NHNextViewController.h"
-#import <UIViewController+NHItem.h>
+#import <NHNavigationItem/NHNavigationItem.h>
 
 
 @interface NHViewController ()

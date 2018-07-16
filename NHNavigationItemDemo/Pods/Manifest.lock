@@ -1,5 +1,5 @@
 PODS:
-  - NHNavigationItem (1.0.0)
+  - NHNavigationItem (1.0.1)
 
 DEPENDENCIES:
   - NHNavigationItem (from `../NHNavigationItem.podspec`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../NHNavigationItem.podspec"
 
 SPEC CHECKSUMS:
-  NHNavigationItem: 2ea0e78e93e9854faf90cf9b41143a1104a706e3
+  NHNavigationItem: 46ac54b08d1a4db5554c82122f5d2c5281eaa7ca
 
 PODFILE CHECKSUM: e422b112428feed7070ac9a1113664dab9a748d9
 
-COCOAPODS: 1.5.2
+COCOAPODS: 1.5.3

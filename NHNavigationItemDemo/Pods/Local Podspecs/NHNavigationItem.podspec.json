@@ -1,6 +1,6 @@
 {
   "name": "NHNavigationItem",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "summary": "在系统原生的导航栏上面随意定制导航按钮及自带侧滑返回手势的工具类",
   "description": "一个完全支持在系统原生的导航栏上面随意定制导航按钮及自带侧滑返回手势的工具类，你只需要简单调用一句代码即可添加导航栏按钮，支持block回调及函数调用。",
   "homepage": "https://github.com/nenhall/NHNavigationItem",
@@ -16,7 +16,7 @@
   },
   "source": {
     "git": "https://github.com/nenhall/NHNavigationItem.git",
-    "tag": "1.0.0"
+    "tag": "1.0.1"
   },
   "source_files": "NHNavigationItem/*.{h,m}",
   "public_header_files": "NHNavigationItem/*.h"
